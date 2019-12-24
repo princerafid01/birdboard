@@ -25,9 +25,8 @@
             <div class="container mx-auto">
                 <div class="flex justify-between items-center py-3">
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        <img src="logo.svg" alt="Birdboard">
                     </a>
-
                     <div>
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
